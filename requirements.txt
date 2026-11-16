@@ -1,0 +1,12 @@
+# Core versions observed in the completed Kaggle run
+mne==1.13.2
+tensorflow==2.21.0
+
+# Additional notebook dependencies
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+requests
+ipython
