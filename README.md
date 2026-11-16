@@ -169,6 +169,6 @@ Versions observed during the completed Kaggle run:
 
 The notebook also uses NumPy, pandas, SciPy, scikit-learn, Matplotlib, and Requests. Exact versions for every supporting library were not recorded in the saved experiment summary.
 
-## 11. Acknowledgements
+## 10. Acknowledgements
 
 The project uses the publicly released BCI Competition IV Dataset 2a and builds on the EEGNet architecture proposed by Lawhern et al. The original dataset and research paper are cited above.
