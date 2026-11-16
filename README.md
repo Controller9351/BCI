@@ -142,34 +142,11 @@ The results should be described as an **approximate reproduction / independent i
 
 These differences are documented so that the reported results are interpreted transparently.
 
-## 8. Repository structure
 
-A suggested GitHub repository layout is:
-
-```text
-EEGNet-C1-Project/
-├── README.md
-├── requirements.txt
-├── notebooks/
-│   └── EEGNet_C1_Final_Reproducible.ipynb
-├── results/
-│   ├── eegnet_90_fold_results.csv
-│   ├── subject_accuracy_summary.csv
-│   ├── data_quality_summary.csv
-│   ├── experiment_summary.csv
-│   └── paper_comparison.csv
-├── figures/
-│   ├── temporal_filters.png
-│   ├── spatial_topomaps.png
-│   └── input_gradient_relevance.png
-└── report/
-    ├── EEGNet_C1_Reproduction_Report.pdf
-    └── EEGNet_C1_Presentation.pptx
-```
 
 Only include files that are actually present in the repository. The original EEG recordings and official label archive should be obtained from their official source; do not upload restricted or unnecessarily large raw data files to the repository.
 
-## 9. How to run the notebook
+## 8. How to run the notebook
 
 The notebook is prepared for **Kaggle Notebooks**.
 
@@ -182,7 +159,7 @@ The notebook is prepared for **Kaggle Notebooks**.
 
 **Important:** Running the notebook from the beginning trains the 90 evaluation runs again and may take considerable time. The previously completed run's CSV results should be kept separately as the record of that experiment. The corrected notebook source has not been runtime-validated end-to-end after the final channel-mapping edits.
 
-## 10. Software environment
+## 9. Software environment
 
 Versions observed during the completed Kaggle run:
 
